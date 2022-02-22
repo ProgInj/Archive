@@ -8,5 +8,6 @@ cout « "введите x: ";
 cin » x;
 cout « "введите y: ";
 cin » y;
-cout « " x + y = " « x + y « endl;
+cout « " x - y = " « x - y « endl;
 return 0;
+}
