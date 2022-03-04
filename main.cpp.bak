@@ -1,13 +1,10 @@
-#include <iostream>
-#include <sdt>
-int main() //Программа является учебной
+#include "sdt.h"
+int main()
 {
-setlocale(LC_ALL, "Russia");
-int x, y;
-cout « "введите x: ";
-cin » x;
-cout « "введите y: ";
-cin » y;
-cout « " x - y = " « x - y « endl;
-return 0;
+	int a, b;
+	cout << "Enter A and B: ";
+	cin >> a >> b;
+	cout << "A + B = " << a + b << '\n'
+	cout << "A - B = " << a - b << '\n'
+	cout << "A * B = " << a * b << '\n';
 }
